@@ -19,6 +19,8 @@ the user can paint or erase by just using index finger. By default in the beginn
 •	In this project, I am training and tuning the hyper-parameters for DeeplabV3_resnet101 model using open source data (comma10k) related to road images, 
   which were taken using camera placed inside the car.
 •	I am using google colab for training and testing the model.
+### Raw image
+![Raw Image](https://github.com/SubramanyaGurumurthy/SubramanyaGurumurthy.github.io/blob/main/0000_0085e9e41513078a_2018-08-19--13-26-08_11_864.png)
 
-![Raw Image](https://github.com/commaai/comma10k/blob/master/imgs/0000_0085e9e41513078a_2018-08-19--13-26-08_11_864.png)
+### Segmented Image
 ![Segmented Image](https://github.com/SubramanyaGurumurthy/SubramanyaGurumurthy.github.io/blob/main/0000_0085e9e41513078a_2018-08-19--13-26-08_11_864%20(1).png)
