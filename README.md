@@ -21,4 +21,4 @@ the user can paint or erase by just using index finger. By default in the beginn
 •	I am using google colab for training and testing the model.
 
 ![Raw Image](https://github.com/commaai/comma10k/blob/master/imgs/0000_0085e9e41513078a_2018-08-19--13-26-08_11_864.png)
-![Segmented Image](https://github.com/commaai/comma10k/blob/master/masks/0000_0085e9e41513078a_2018-08-19--13-26-08_11_864.png)
+![Segmented Image](https://github.com/SubramanyaGurumurthy/SubramanyaGurumurthy.github.io/blob/main/0000_0085e9e41513078a_2018-08-19--13-26-08_11_864%20(1).png)
