@@ -3,12 +3,12 @@
 ## [1. Real-time Hand gesture Detection using Mediapipe](https://github.com/SubramanyaGurumurthy/RealTimeHandgestureDetection.git)
 Realtime pose detection of the human body is an important task in computer vision as the detected results can be further used for understanding and to analyze person's position, and the task that the person is performing. In this work I have used the [Mediapipe library](https://google.github.io/mediapipe/solutions/hands) by google for the detection and tracking of key points. The proposed application uses the raw pixel values of the captured image to detect different points on the human body. I further use these points for different sub-tasks such as Gesture Volume Control, Paint App using fingers.
 
-### - Gesture Volume Control
+### - [Gesture Volume Control](https://github.com/SubramanyaGurumurthy/RealTimeHandTracking#:~:text=*-,Gesture%20Volume%20Control,-In%20this%20module)
 In this module, user can control the device's volume using hand gesutre. Basically in this module, the program detects hand using MediaPipe library, within which, the tip of the index finger and tip of the thumb is recognised and used further for controlling the volume. The volume increases as the user elongates the length between tip of index finger and thumb, and vice versa. For details, please refer to gif provided below.
 
 ![volume control](https://github.com/SubramanyaGurumurthy/RealTimeHandgestureDetection/blob/main/gif/Volume_control.gif)
 
-### - Paint Module
+### - [Paint Module](https://github.com/SubramanyaGurumurthy/RealTimeHandTracking#:~:text=*-,Paint%20Module,-In%20this%20module)
 In this module, user can paint on the camera screen using finger gestures. Similar to Gesture_Volume_control module, here the program first detects the hand and within which the index finger and thumb tip positions are extracted. Using the extracted details, the user's gesture is painted on the screen. The painter module offer 3 different colors to chose from and an eraser options. By using both middle finger and index finger together and closing other fingers, user can switch between colors or eraser which can be found on the top of the screen. After selection, the user can paint or erase by just using just index finger. By default in the beginning, pink color will be selected. For the visual demonstration please refer to the gif provided below.
 
 ![Paint_Module](https://github.com/SubramanyaGurumurthy/RealTimeHandgestureDetection/blob/main/gif/ezgif.com-gif-maker.gif)
