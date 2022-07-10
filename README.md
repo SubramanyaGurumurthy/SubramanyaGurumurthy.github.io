@@ -9,7 +9,9 @@ In this module, user can control the device's volume using hand gesutre. Basical
 ![volume control](https://github.com/SubramanyaGurumurthy/RealTimeHandgestureDetection/blob/main/gif/Volume_control.gif)
 
 ### - Paint Module
-In this module, user can paint on the camera screen using finger gestures. Similar to Gesture_Volume_control module, here the program first detects the hand and within which the index finger and thumb tip positions are extracted. Using the extracted details, the user's gesture is painted on the screen. The painter module offer 3 different colors to chose from and an eraser options. By using both middle finger and index finger together and closing other fingers, user can switch between colors or eraser which can be found on the top of the screen. After selection, the user can paint or erase by just using just index finger. By default in the beginning, pink color will be selected. For the visual demonstration [click here](https://youtu.be/u2zQ_nwl4WA)
+In this module, user can paint on the camera screen using finger gestures. Similar to Gesture_Volume_control module, here the program first detects the hand and within which the index finger and thumb tip positions are extracted. Using the extracted details, the user's gesture is painted on the screen. The painter module offer 3 different colors to chose from and an eraser options. By using both middle finger and index finger together and closing other fingers, user can switch between colors or eraser which can be found on the top of the screen. After selection, the user can paint or erase by just using just index finger. By default in the beginning, pink color will be selected. For the visual demonstration please refer to the gif provided below.
+
+![Paint_Module](https://github.com/SubramanyaGurumurthy/RealTimeHandgestureDetection/blob/main/gif/ezgif.com-gif-maker.gif)
 
 ## [2. Semantic Segmentation using Pytorch (On Going)](https://colab.research.google.com/drive/1FnwAzHF5YFaVst41jaXHYwjBXWSFyd0o?usp=sharing)
 * Semantic segmentation (SS) is an important perception manner for self-driving cars and robotics, which classifies each pixel into a pre-determined class. 
