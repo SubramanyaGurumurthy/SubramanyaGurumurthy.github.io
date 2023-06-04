@@ -1,15 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-        <p>This is my new website which is hosted on GitHub Pages!</p>
-    </main>
-  </body>
+<head>
+  <title>Subramanya Nanjangud Gurumurthy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Subramanya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class/* hero background image */
+                        .bgimage {
+                            height:100vh;
+                            background: url('images/bg.jpeg');
+                            background-size:cover;
+                            position:relative;
+                        }
+                        /* text css above hero image*/
+                        .hero_title {
+                            font-size: 4.5rem;
+                        }
+                        .hero_desc {
+                            font-size: 2rem;
+                        }
+                        .hero-text {
+                            text-align: center;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            color: white;
+                        }="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                  <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    -->
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Subramanya</h2>
+                <p class="hero_desc">I am a Robotics Engineer based in Stuttgart, Germany</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <style>
+      .about_img{
+         
+          border-radius: 500px;
+      }
+  </style>
+  <!-- about section-->
+  <section id="about">
+      <div class="container mt-4 pt-4">
+          <h1 class="text-center">About Me</h1>
+          <div class="row mt-4">
+              <div class="col-lg-4">
+                  <img src="images/about.jpeg" class= "imageAboutPage" alt="">
+              </div>
+              <style>
+                  .justify {
+                      text-align: justify;
+                  }
+              </style>
+              <div class="col-lg-8">
+                  <p class="justify"> Hi there, I'm Subramanya Nanjangud Gurumurthy, a Mechatronics and Mechanical Engineer with a passion 
+                      for cutting-edge technology and a drive to make a difference in the world. My areas of expertise include 
+                      Computer Vision, Learning, and ROS. I have over an year of experience in Vision based Robotic Grasp Planning. 
+                      I'm currently seeking exciting thesis opportunities in the fields of Robotics, Autonomous Vehicles, Artificial Intelligence, 
+                      and ML-DL. With a strong academic background and hands-on experience in various projects, I'm confident in my ability  to contribute 
+                      to the industry's advancement. I believe in continuously learning and adapting to new technologies, and I'm excited to 
+                      utilize my skillset to make a meaningful impact in the field. Thank you for taking the time to visit my portfolio website. 
+                      Please feel free to explore my projects and get in touch if you have any questions or collaboration opportunities.
+                  </p>
+                  <div class="row mt-3">
+                      <div class="col-md-6">
+                          <ul>
+                              <li>Name: Subramanya Nanjangud Gurumurthy</li>
+                              <li>Age: 27</li>
+                              <li>Occupation: Robotics Engineer</li>
+                          </ul>
+                      </div>
+                      <!--<div class="col-md-6">
+                          <ul>
+                              <li>Name: David Parker</li>
+                              <li>Age: 28</li>
+                              <li>Occupation: Web Developer</li>
+
+                          </ul>
+                      </div> -->
+                  </div>
+                  <div class="row mt-3">
+                      <p class="justify"> Further details will be updated shortly
+                      </p>
+                  </div>
+              </div>
+          </div>
+  </section>
+
+   <!-- contact section-->
+ 
+  <section id="contact">
+      <div class="container mt-3 contactContent">
+          <h1 class="text-center">Location</h1>    
+          <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                  <div id="my-map-canvas" style="display: flex; justify-content: center; height: 500px; width:100%;max-width:100%;">
+                      <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pfaffenwaldring+48,+Stuttgart,+Germany&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                      </iframe></div><a class="googl-ehtml" href="https://www.bootstrapskins.com/themes" id="enable-maps-data">
+                              <style>#my-map-canvas .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none; </style>
+                  </div>
+      </div>
+  </section>
+  
+  <!-- footer section-->
+  <footer id="footer">
+      <div class="container-fluid">
+          <!-- social media icons -->
+          <div class="social-icons mt-4">
+              <a href="https://www.linkedin.com/in/subramanya-gurumurthy/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+      </div>
+  </footer>
+
+  <!-- load javascript after loading all html content -->
+  <script src="script/script.js"></script>
+
+</body>
+
 </html>
